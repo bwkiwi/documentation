@@ -2,6 +2,7 @@ site_name: IT-Ops.AI
 site_url: https://bwkiwi.github.io/documentation/
 theme:
   name: material
+  custom_dir: overrides
   logo: assets/logo.png
   favicon: assets/favicon.png 
   features:
@@ -44,15 +45,21 @@ extra:
   version:
     provider: mike
     versions:
-      - version: "dev"
-        title: "Development"
-      - version: "1.0"
-        title: "1.0"    
+      - version: "0.1"
+        title: "0.1 (Development)"
 
+nav:
+  - Company Page: https://brianhubbardeducat.wixstudio.com/monovandi-test
+  - Introduction: index.md
+  - GraphQL: 
+      - Introduction: graphql/start_here.md
+      - Learn More: graphql/learn_more.md
+
+  
 markdown_extensions:
   - admonition
   - footnotes
-  - attr_list
+  - attr_list  
   - pymdownx.highlight:
       anchor_linenums: true
   - pymdownx.inlinehilite

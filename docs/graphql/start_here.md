@@ -7,7 +7,7 @@
 
 To make a request simply send a POST request to our graphql endpoint, <https://api.peterportal.org/graphql/>
 
-=== "GraphQL Client"
+=== "GraphQL Client 4"
 
     * Connect to the URL in your browser.
     * ![type:video](./videos/Untitled video.gif){: style='width: 70%'}
@@ -24,7 +24,6 @@ To make a request simply send a POST request to our graphql endpoint, <https://a
 
 You can try out our API live at our [GraphQL Playground](/graphql-playground).
 
-![playground demo](assets/Untitled video.gif)
 ![type:video](./videos/Untitled video.gif){: style='width: 70%'}
 
 ![playground demo](https://gifs.tisuela.com/web-dev/graphql_playground_demo.gif)
